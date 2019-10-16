@@ -1,0 +1,15 @@
+{
+  "name": "NodeChat",
+  "version": "1.0.0",
+  "description": "real time chat",
+  "main": "servidor.js",
+  "author": "Thiago Velho",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
